@@ -1,6 +1,6 @@
 Insurance Premium Risk Prediction API
 
-A Machine Learning powered REST API that predicts an individual's insurance premium risk category based on demographic, lifestyle, and financial attributes.
+A Machine Learning powered FastAPI that predicts an individual's insurance premium risk category based on demographic, lifestyle, and financial attributes.
 
 The application is built using FastAPI for high-performance API serving and Docker for containerized deployment.
 
@@ -8,7 +8,7 @@ Project Overview
 
 Insurance companies determine premium pricing by evaluating various risk factors such as age, lifestyle, income, and occupation.
 
-This project uses a trained machine learning classification model to categorize users into insurance premium risk groups through a REST API.
+This project uses a trained machine learning classification model to categorize users into insurance premium risk.
 
 The system performs feature engineering dynamically and exposes a /predict endpoint that returns the predicted risk category.
 
@@ -40,7 +40,7 @@ Docker Hub
 
 Features
 
-High-performance FastAPI REST API
+High-performance FastAPI
 
 Automatic feature engineering
 
